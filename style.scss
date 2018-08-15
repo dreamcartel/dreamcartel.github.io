@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 20px/1.5 $helvetica;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $black;
+  color: #191919;
   font-weight: bold;
 
   line-height: 1.8;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 32px;
   a {
     color: inherit;
   }
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 50px 0;
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px solid #191919;
 
   @include mobile {
     text-align: center;
@@ -192,18 +192,18 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #191919;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 500;
+  font-size: 32px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 14px;
+  color: #191919;
+  font-size: 18px;
 
   @include mobile {
     margin: 3px 0;
@@ -267,20 +267,20 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid $gray;
-  border-bottom: 1px solid $gray;
-  background-color: $lightGray;
+  border-top: 1px solid #191919;
+  border-bottom: 1px #191919;
+  background-color: #191919;
 }
 
 footer {
   padding: 50px 0;
-  text-align: left;
+  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
